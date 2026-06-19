@@ -1,0 +1,8 @@
+{
+  "_comment": "Public RSS/Atom feeds to ingest. `category` maps every item from that feed into one of the site's categories (see lib/categories.js). Run `npm run fetch` to pull these into data/feed-cache.json, then `npm run build`. Add or remove feeds freely.",
+  "feeds": [
+    { "url": "https://www.goodnewsnetwork.org/feed/", "source": "Good News Network", "category": "kindness" },
+    { "url": "https://www.positive.news/feed/", "source": "Positive News", "category": "community" },
+    { "url": "https://reasonstobecheerful.world/feed/", "source": "Reasons to be Cheerful", "category": "the-planet" }
+  ]
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "title": "A Town Dropped Its Spare Change in a Jar for a Year. It Just Wiped Out Every Student's Lunch Debt.",
+    "dek": "Residents fed coins into a jug at the hardware store all year. Twelve months later, not a single kid in the district owes a cent — and the jug is already filling back up.",
+    "category": "community",
+    "source": "The Bright Side",
+    "url": "https://example.com/lunch-debt",
+    "glyph": "🥪",
+    "gradient": ["#FFC02E", "#FF5A36"],
+    "readingTime": "3 min read",
+    "featured": true,
+    "hoursAgo": 2
+  },
+  {
+    "title": "Lost Dog Walks 40 Miles Home, Turns Up at the Door Like Nothing Happened",
+    "category": "animals",
+    "source": "Community Wire",
+    "url": "https://example.com/lost-dog",
+    "glyph": "🐕",
+    "gradient": ["#1E9E63", "#0C7C8C"],
+    "rail": true,
+    "hoursAgo": 4
+  },
+  {
+    "title": "A 'Coral Nursery' Brought a Dead Reef Back to Life in Just Three Years",
+    "category": "science-wins",
+    "source": "Science Daily Good",
+    "url": "https://example.com/coral-nursery",
+    "rail": true,
+    "hoursAgo": 5
+  },
+  {
+    "title": "Siblings Separated 60 Years Ago Find Each Other Living One Town Apart",
+    "category": "reunions",
+    "source": "The Bright Side",
+    "url": "https://example.com/siblings-reunion",
+    "rail": true,
+    "hoursAgo": 6
+  },
+  {
+    "title": "Off-Duty Firefighter Pulls a Family From the River, Then Slips Away Before Anyone Gets His Name",
+    "category": "everyday-heroes",
+    "source": "Local Heroes Desk",
+    "url": "https://example.com/firefighter-river",
+    "glyph": "🚒",
+    "gradient": ["#FF5A36", "#F2A20C"],
+    "tags": ["todays-wins"],
+    "hoursAgo": 1
+  },
+  {
+    "title": "A Whole Country Ran on Renewable Power for 100 Days Straight — a New Record",
+    "category": "the-planet",
+    "source": "Green Wire",
+    "url": "https://example.com/renewable-record",
+    "glyph": "⚡",
+    "gradient": ["#1E9E63", "#7CB518"],
+    "tags": ["todays-wins"],
+    "hoursAgo": 3
+  },
+  {
+    "title": "This Barber Gives Free Haircuts to Any Kid Who Reads Him a Book First",
+    "category": "kindness",
+    "source": "The Bright Side",
+    "url": "https://example.com/barber-books",
+    "glyph": "✂️",
+    "gradient": ["#E85D9E", "#FFC02E"],
+    "tags": ["todays-wins"],
+    "hoursAgo": 4
+  },
+  {
+    "title": "Doctors Said She'd Never Walk Again. She Just Finished a Full Marathon.",
+    "category": "comebacks",
+    "source": "Good Sport",
+    "url": "https://example.com/marathon-comeback",
+    "glyph": "🏅",
+    "gradient": ["#7A4BC9", "#FF5A36"],
+    "tags": ["todays-wins"],
+    "hoursAgo": 5
+  },
+  {
+    "title": "Shelter Empties for the First Time in 30 Years as Every Last Pet Finds a Home",
+    "dek": "Staff lined up for a photo in front of rows of empty kennels. \"We've literally never seen this,\" the director said.",
+    "category": "animals",
+    "source": "Community Wire",
+    "url": "https://example.com/shelter-empties",
+    "glyph": "🐾",
+    "gradient": ["#0C7C8C", "#1E9E63"],
+    "tags": ["animal-kingdom"],
+    "hoursAgo": 2
+  },
+  {
+    "title": "Divers Free a Whale Tangled in Netting — Then It Circles Back, As If to Say Thanks",
+    "dek": "The rescue took two hours. The send-off, captured on a drone, has been watched four million times.",
+    "category": "animals",
+    "source": "Ocean Bright",
+    "url": "https://example.com/whale-rescue",
+    "glyph": "🐋",
+    "gradient": ["#2B6CB0", "#0C7C8C"],
+    "tags": ["animal-kingdom"],
+    "hoursAgo": 4
+  },
+  {
+    "title": "A Penguin Colony Has Doubled in Size Since Conservationists Stepped In",
+    "dek": "Five years ago the count was falling fast. The new survey put it at the highest number on record.",
+    "category": "science-wins",
+    "kicker": "Science Wins",
+    "source": "Science Daily Good",
+    "url": "https://example.com/penguin-colony",
+    "glyph": "🐧",
+    "gradient": ["#1E9E63", "#FFC02E"],
+    "tags": ["animal-kingdom"],
+    "hoursAgo": 7
+  },
+  {
+    "title": "A 9-Year-Old Saved His Allowance for Months to Buy Winter Coats for His Whole Class",
+    "category": "kindness",
+    "source": "The Bright Side",
+    "url": "https://example.com/winter-coats",
+    "glyph": "🧥",
+    "gradient": ["#FF5A36", "#FFC02E"],
+    "tags": ["everyday-heroes"],
+    "hoursAgo": 3
+  },
+  {
+    "title": "This Bus Driver Knows Every Rider's Name — and Remembers All Their Birthdays",
+    "category": "community",
+    "source": "Local Heroes Desk",
+    "url": "https://example.com/bus-driver",
+    "glyph": "🚌",
+    "gradient": ["#F2A20C", "#FF5A36"],
+    "tags": ["everyday-heroes"],
+    "hoursAgo": 6
+  },
+  {
+    "title": "Neighbors Rebuilt a Widow's Collapsing Porch Overnight — as a Surprise",
+    "category": "community",
+    "source": "Community Wire",
+    "url": "https://example.com/widow-porch",
+    "glyph": "🔨",
+    "gradient": ["#7CB518", "#1E9E63"],
+    "tags": ["everyday-heroes"],
+    "hoursAgo": 9
+  },
+  {
+    "title": "An AI Flagged Her Cancer Three Years Before Doctors Would Have. She's Now Cancer-Free.",
+    "dek": "The model spotted a faint pattern in a routine scan that the eye tends to miss. Her oncologist calls it \"the catch of a lifetime.\"",
+    "category": "good-ai",
+    "kicker": "Science Wins",
+    "source": "Science Daily Good",
+    "url": "https://example.com/ai-cancer",
+    "glyph": "🤖",
+    "gradient": ["#2B6CB0", "#7A4BC9"],
+    "hoursAgo": 2
+  },
+  {
+    "title": "Researchers Used AI to Decode Whale Calls — Then They Started Answering Back",
+    "dek": "After months of listening, the team played a phrase into the deep. A humpback paused, circled the boat, and replied.",
+    "category": "good-ai",
+    "kicker": "Animals",
+    "source": "Ocean Bright",
+    "url": "https://example.com/ai-whale-calls",
+    "glyph": "🐋",
+    "gradient": ["#0C7C8C", "#1E9E63"],
+    "hoursAgo": 5
+  },
+  {
+    "title": "A Free AI Helpline Now Reads Every Letter, Bill and Form Aloud for People Who Struggle to Read",
+    "dek": "Call the number, hold up the page, and a calm voice explains it. Half a million people used it in the first month.",
+    "category": "good-ai",
+    "kicker": "Community",
+    "source": "Community Wire",
+    "url": "https://example.com/ai-helpline",
+    "glyph": "🔊",
+    "gradient": ["#7A4BC9", "#FF5A36"],
+    "hoursAgo": 8
+  }
+]

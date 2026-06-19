@@ -1,0 +1,22 @@
+{
+  "_comment": "Controls how the homepage is assembled from the article data. Each section pulls articles by `tag`, `category`, or just the latest. Edit freely — nothing here is hard-coded in the builder.",
+  "sections": [
+    { "title": "Today's Wins", "layout": "grid4", "tag": "todays-wins", "take": 4 },
+    { "title": "Animal Kingdom", "href": "animals.html", "layout": "grid3", "size": "lg", "withDek": true, "tag": "animal-kingdom", "take": 3 },
+    { "title": "Everyday Heroes", "href": "everyday-heroes.html", "layout": "grid3", "size": "lg", "tag": "everyday-heroes", "take": 3 },
+    { "title": "Good AI", "href": "good-ai.html", "layout": "grid3", "size": "lg", "withDek": true, "category": "good-ai", "take": 3 }
+  ],
+  "ticker": [
+    "Stranger quietly pays off layaway gifts for 60 families",
+    "Teen invents a low-cost water filter, wins national science prize",
+    "Retired teacher reads bedtime stories online to 1,000 kids a night",
+    "Volunteers plant 50,000 trees in a single weekend",
+    "Nurse adopts the newborn she cared for in the ICU"
+  ],
+  "meter": [
+    { "value": 1284, "label": "Acts of kindness logged" },
+    { "value": 47, "label": "Reunions" },
+    { "value": 213, "label": "Rescues" },
+    { "suffix": "∞", "label": "Reasons to smile" }
+  ]
+}

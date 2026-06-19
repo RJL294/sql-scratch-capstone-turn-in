@@ -1,0 +1,6 @@
+# Transient RSS cache — regenerate with `npm run fetch`
+data/feed-cache.json
+
+# Node
+node_modules/
+npm-debug.log*

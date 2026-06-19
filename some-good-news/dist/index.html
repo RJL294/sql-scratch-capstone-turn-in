@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Some Good News — Good news only</title>
+<meta name="description" content="A daily roundup of feel-good news from across the web. Verified before it cheers you up.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Newsreader:ital,opsz,wght@0,16..72,400;0,16..72,500;1,16..72,400&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <div class="util">
+    <div class="wrap">
+      <span class="date" id="today">&nbsp;</span>
+      <span class="tag">Good news only</span>
+      <span class="spacer"></span>
+      <span class="live"><span class="dot"></span>Updated <span class="mono" id="clock">—</span></span>
+      <a href="#tip" class="sub">Get the daily smile →</a>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="wrap">
+      <div class="nameplate">
+        <a href="index.html" aria-label="Some Good News home" style="display:flex;align-items:center;gap:18px;">
+        <svg class="sun" width="64" height="64" viewBox="0 0 100 100" aria-hidden="true">
+          <g fill="none" stroke="#FFC02E" stroke-width="6" stroke-linecap="round" class="ray">
+            <line x1="50" y1="6" x2="50" y2="20"/>
+            <line x1="82" y1="18" x2="72" y2="28"/>
+            <line x1="94" y1="50" x2="80" y2="50"/>
+            <line x1="18" y1="18" x2="28" y2="28"/>
+            <line x1="6"  y1="50" x2="20" y2="50"/>
+            <line x1="71" y1="71" x2="80" y2="80"/>
+            <line x1="29" y1="71" x2="20" y2="80"/>
+          </g>
+          <circle cx="50" cy="50" r="20" fill="#FFC02E"/>
+          <circle cx="50" cy="50" r="20" fill="none" stroke="#1B1613" stroke-width="3"/>
+        </svg>
+        <h1 class="wordmark">Some <span class="good">Good</span> News</h1>
+        </a>
+      </div>
+      <p class="dateline">
+        Good news only, since 2026 <span class="pip"></span> <b>Hand-picked from across the web</b> <span class="pip"></span> Verified before it cheers you up
+      </p>
+      <nav>
+        <div class="navrow">
+          <a href="kindness.html">Kindness</a>
+          <a href="animals.html">Animals</a>
+          <a href="everyday-heroes.html">Everyday Heroes</a>
+          <a href="science-wins.html">Science Wins</a>
+          <a href="good-ai.html">Good AI</a>
+          <a href="the-planet.html">The Planet</a>
+          <a href="community.html">Community</a>
+          <a href="comebacks.html">Comebacks</a>
+          <a href="reunions.html">Reunions</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="splash">
+      <div class="lead">
+        <div class="photo" style="background:linear-gradient(135deg,#FFC02E,#FF5A36);"><span class="glyph" aria-hidden="true">🥪</span></div>
+        <span class="kicker">Community</span>
+        <h1><a href="https://example.com/lunch-debt" target="_blank" rel="noopener">A Town Dropped Its Spare Change in a Jar for a Year. It Just Wiped Out Every Student&#39;s Lunch Debt.</a></h1>
+        <p class="dek">Residents fed coins into a jug at the hardware store all year. Twelve months later, not a single kid in the district owes a cent — and the jug is already filling back up.</p>
+        <p class="byline">via <b>The Bright Side</b> · 2 hours ago · 3 min read</p>
+      </div>
+
+      <div class="rail">
+        <div class="railhead">More good news <span>☀</span></div>
+
+        <div class="railstory withpic">
+          <div class="photo" style="background:linear-gradient(135deg,#1E9E63,#0C7C8C);"><span class="glyph" aria-hidden="true">🐕</span></div>
+          <div>
+            <span class="kicker">Animals</span>
+            <h3><a href="https://example.com/lost-dog" target="_blank" rel="noopener">Lost Dog Walks 40 Miles Home, Turns Up at the Door Like Nothing Happened</a></h3>
+            <p class="byline">via <b>Community Wire</b> · 4h</p>
+          </div>
+        </div>
+
+        <div class="railstory">
+          <span class="kicker">Science Wins</span>
+          <h3><a href="https://example.com/coral-nursery" target="_blank" rel="noopener">A &#39;Coral Nursery&#39; Brought a Dead Reef Back to Life in Just Three Years</a></h3>
+          <p class="byline">via <b>Science Daily Good</b> · 5h</p>
+        </div>
+
+        <div class="railstory">
+          <span class="kicker">Reunions</span>
+          <h3><a href="https://example.com/siblings-reunion" target="_blank" rel="noopener">Siblings Separated 60 Years Ago Find Each Other Living One Town Apart</a></h3>
+          <p class="byline">via <b>The Bright Side</b> · 6h</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticker">
+    <div class="wrap" style="padding:0;max-width:none;">
+      <div class="row">
+        <div class="label">Trending Smiles</div>
+        <div class="track">
+          <div class="move" id="ticker">
+            <span class="item">Stranger quietly pays off layaway gifts for 60 families</span>
+            <span class="item">Teen invents a low-cost water filter, wins national science prize</span>
+            <span class="item">Retired teacher reads bedtime stories online to 1,000 kids a night</span>
+            <span class="item">Volunteers plant 50,000 trees in a single weekend</span>
+            <span class="item">Nurse adopts the newborn she cared for in the ICU</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sechead">
+        <h2>Today&#39;s Wins</h2>
+        
+      </div>
+      <div class="grid4">
+        <article class="card">
+          <div class="photo" style="background:linear-gradient(135deg,#FF5A36,#F2A20C);"><span class="glyph" aria-hidden="true">🚒</span></div>
+          <span class="kicker">Heroes</span>
+          <h3><a href="https://example.com/firefighter-river" target="_blank" rel="noopener">Off-Duty Firefighter Pulls a Family From the River, Then Slips Away Before Anyone Gets His Name</a></h3>
+          <p class="byline">via <b>Local Heroes Desk</b> · 1h</p>
+        </article>
+        <article class="card">
+          <div class="photo" style="background:linear-gradient(135deg,#1E9E63,#7CB518);"><span class="glyph" aria-hidden="true">⚡</span></div>
+          <span class="kicker">The Planet</span>
+          <h3><a href="https://example.com/renewable-record" target="_blank" rel="noopener">A Whole Country Ran on Renewable Power for 100 Days Straight — a New Record</a></h3>
+          <p class="byline">via <b>Green Wire</b> · 3h</p>
+        </article>
+        <article class="card">
+          <div class="photo" style="background:linear-gradient(135deg,#E85D9E,#FFC02E);"><span class="glyph" aria-hidden="true">✂️</span></div>
+          <span class="kicker">Kindness</span>
+          <h3><a href="https://example.com/barber-books" target="_blank" rel="noopener">This Barber Gives Free Haircuts to Any Kid Who Reads Him a Book First</a></h3>
+          <p class="byline">via <b>The Bright Side</b> · 4h</p>
+        </article>
+        <article class="card">
+          <div class="photo" style="background:linear-gradient(135deg,#7A4BC9,#FF5A36);"><span class="glyph" aria-hidden="true">🏅</span></div>
+          <span class="kicker">Comebacks</span>
+          <h3><a href="https://example.com/marathon-comeback" target="_blank" rel="noopener">Doctors Said She&#39;d Never Walk Again. She Just Finished a Full Marathon.</a></h3>
+          <p class="byline">via <b>Good Sport</b> · 5h</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sechead">
+        <h2>Animal Kingdom</h2>
+        <a href="animals.html" class="more">See all →</a>
+      </div>
+      <div class="grid3">
+        <article class="card lg">
+          <div class="photo" style="background:linear-gradient(135deg,#0C7C8C,#1E9E63);"><span class="glyph" aria-hidden="true">🐾</span></div>
+          <span class="kicker">Animals</span>
+          <h3><a href="https://example.com/shelter-empties" target="_blank" rel="noopener">Shelter Empties for the First Time in 30 Years as Every Last Pet Finds a Home</a></h3>
+          <p class="dek">Staff lined up for a photo in front of rows of empty kennels. &quot;We&#39;ve literally never seen this,&quot; the director said.</p>
+          <p class="byline">via <b>Community Wire</b> · 2h</p>
+        </article>
+        <article class="card lg">
+          <div class="photo" style="background:linear-gradient(135deg,#2B6CB0,#0C7C8C);"><span class="glyph" aria-hidden="true">🐋</span></div>
+          <span class="kicker">Animals</span>
+          <h3><a href="https://example.com/whale-rescue" target="_blank" rel="noopener">Divers Free a Whale Tangled in Netting — Then It Circles Back, As If to Say Thanks</a></h3>
+          <p class="dek">The rescue took two hours. The send-off, captured on a drone, has been watched four million times.</p>
+          <p class="byline">via <b>Ocean Bright</b> · 4h</p>
+        </article>
+        <article class="card lg">
+          <div class="photo" style="background:linear-gradient(135deg,#1E9E63,#FFC02E);"><span class="glyph" aria-hidden="true">🐧</span></div>
+          <span class="kicker">Science Wins</span>
+          <h3><a href="https://example.com/penguin-colony" target="_blank" rel="noopener">A Penguin Colony Has Doubled in Size Since Conservationists Stepped In</a></h3>
+          <p class="dek">Five years ago the count was falling fast. The new survey put it at the highest number on record.</p>
+          <p class="byline">via <b>Science Daily Good</b> · 7h</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sechead">
+        <h2>Everyday Heroes</h2>
+        <a href="everyday-heroes.html" class="more">See all →</a>
+      </div>
+      <div class="grid3">
+        <article class="card lg">
+          <div class="photo" style="background:linear-gradient(135deg,#FF5A36,#FFC02E);"><span class="glyph" aria-hidden="true">🧥</span></div>
+          <span class="kicker">Kindness</span>
+          <h3><a href="https://example.com/winter-coats" target="_blank" rel="noopener">A 9-Year-Old Saved His Allowance for Months to Buy Winter Coats for His Whole Class</a></h3>
+          <p class="byline">via <b>The Bright Side</b> · 3h</p>
+        </article>
+        <article class="card lg">
+          <div class="photo" style="background:linear-gradient(135deg,#F2A20C,#FF5A36);"><span class="glyph" aria-hidden="true">🚌</span></div>
+          <span class="kicker">Community</span>
+          <h3><a href="https://example.com/bus-driver" target="_blank" rel="noopener">This Bus Driver Knows Every Rider&#39;s Name — and Remembers All Their Birthdays</a></h3>
+          <p class="byline">via <b>Local Heroes Desk</b> · 6h</p>
+        </article>
+        <article class="card lg">
+          <div class="photo" style="background:linear-gradient(135deg,#7CB518,#1E9E63);"><span class="glyph" aria-hidden="true">🔨</span></div>
+          <span class="kicker">Community</span>
+          <h3><a href="https://example.com/widow-porch" target="_blank" rel="noopener">Neighbors Rebuilt a Widow&#39;s Collapsing Porch Overnight — as a Surprise</a></h3>
+          <p class="byline">via <b>Community Wire</b> · 9h</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sechead">
+        <h2>Good AI</h2>
+        <a href="good-ai.html" class="more">See all →</a>
+      </div>
+      <div class="grid3">
+        <article class="card lg">
+          <div class="photo" style="background:linear-gradient(135deg,#2B6CB0,#7A4BC9);"><span class="glyph" aria-hidden="true">🤖</span></div>
+          <span class="kicker">Science Wins</span>
+          <h3><a href="https://example.com/ai-cancer" target="_blank" rel="noopener">An AI Flagged Her Cancer Three Years Before Doctors Would Have. She&#39;s Now Cancer-Free.</a></h3>
+          <p class="dek">The model spotted a faint pattern in a routine scan that the eye tends to miss. Her oncologist calls it &quot;the catch of a lifetime.&quot;</p>
+          <p class="byline">via <b>Science Daily Good</b> · 2h</p>
+        </article>
+        <article class="card lg">
+          <div class="photo" style="background:linear-gradient(135deg,#0C7C8C,#1E9E63);"><span class="glyph" aria-hidden="true">🐋</span></div>
+          <span class="kicker">Animals</span>
+          <h3><a href="https://example.com/ai-whale-calls" target="_blank" rel="noopener">Researchers Used AI to Decode Whale Calls — Then They Started Answering Back</a></h3>
+          <p class="dek">After months of listening, the team played a phrase into the deep. A humpback paused, circled the boat, and replied.</p>
+          <p class="byline">via <b>Ocean Bright</b> · 5h</p>
+        </article>
+        <article class="card lg">
+          <div class="photo" style="background:linear-gradient(135deg,#7A4BC9,#FF5A36);"><span class="glyph" aria-hidden="true">🔊</span></div>
+          <span class="kicker">Community</span>
+          <h3><a href="https://example.com/ai-helpline" target="_blank" rel="noopener">A Free AI Helpline Now Reads Every Letter, Bill and Form Aloud for People Who Struggle to Read</a></h3>
+          <p class="dek">Call the number, hold up the page, and a calm voice explains it. Half a million people used it in the first month.</p>
+          <p class="byline">via <b>Community Wire</b> · 8h</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="meter">
+    <div class="wrap">
+      <p class="eyebrow">The Good News Meter · this week</p>
+      <h2>Proof it's <em>not all bad</em> out there.</h2>
+      <div class="stats">
+        <div class="stat"><div class="num" data-count="1284">0</div><div class="lbl">Acts of kindness logged</div></div>
+        <div class="stat"><div class="num" data-count="47">0</div><div class="lbl">Reunions</div></div>
+        <div class="stat"><div class="num" data-count="213">0</div><div class="lbl">Rescues</div></div>
+        <div class="stat"><div class="num" data-suffix="∞">∞</div><div class="lbl">Reasons to smile</div></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-top">
+        <div class="how">
+          <h4>How Some Good News works</h4>
+          <p>We comb publishers across the web for the stories that make your day a little brighter, show you the headline and a quick summary, then send you straight to the <a href="#">original source</a> for the full story. We don't republish anyone's work — good news belongs to everyone, and credit belongs to the people who reported it.</p>
+        </div>
+        <div class="tip" id="tip">
+          <h4>Spotted something good?</h4>
+          <p>A neighbor, a rescue, a small win on your street — if it made you smile, send it our way.</p>
+          <a href="#" class="btn">Send us a tip →</a>
+        </div>
+      </div>
+      <div class="legal">
+        <span class="wm">Some <em>Good</em> News</span>
+        <span class="spacer"></span>
+        <span>© 2026 · Good news only</span>
+        <span>About</span>
+        <span>Sources</span>
+        <span>Newsletter</span>
+      </div>
+    </div>
+  </footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
